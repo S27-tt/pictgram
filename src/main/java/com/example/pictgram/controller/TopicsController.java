@@ -306,6 +306,7 @@ public class TopicsController {
 		} catch (ImageReadException | IOException e) {
 			log.warn(e.getMessage(), e);
 		}
+
 	}
 
 	@RequestMapping(value = "/topics/topic.csv", produces = MediaType.APPLICATION_OCTET_STREAM_VALUE
